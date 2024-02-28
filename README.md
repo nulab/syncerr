@@ -1,5 +1,8 @@
 # syncerr
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/nulab/syncerr)](https://goreportcard.com/report/github.com/nulab/syncerr)
+[![Go Reference](https://pkg.go.dev/badge/github.com/nulab/syncerr.svg)](https://pkg.go.dev/github.com/nulab/syncerr)
+
 Alternative to [`errgroup.Group`](https://pkg.go.dev/golang.org/x/sync/errgroup) that is context-independent and returns all errors.
 
 In some cases it may be desirable to run multiple tasks concurrently and inspect or log 
